@@ -1,0 +1,35 @@
+version: '3.8'
+services:
+  resolve-enigma-ap:
+    build:
+      context: ./SERVICIOS/ResolveEnigmaAp
+    ports:
+      - "8080:8080"
+
+  resolve-enigma-ap2:
+    build:
+      context: ./SERVICIOS/ResolveEnigmaAp2
+    ports:
+      - "8081:8081"
+
+  resolve-enigma-ap3:
+    build:
+      context: ./SERVICIOS/ResolveEnigmaAp3
+    ports:
+      - "8082:8082"
+
+  webhook:
+    build:
+      context: ./demo/demo
+    ports:
+      - "8083:8083"
+
+  webflux:
+    build:
+      context: ./web/web
+    ports:
+      - "8090:8090"
+
+networks:
+  default:
+    name: spring-cloud-network

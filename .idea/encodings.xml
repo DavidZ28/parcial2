@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Orquestador/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SERVICIOS/ResolveEnigmaAp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SERVICIOS/ResolveEnigmaAp2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SERVICIOS/ResolveEnigmaAp3/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo/demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sprint-cloud-confi-server/sprint-cloud-confi-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/web/src/main/java" charset="UTF-8" />
+  </component>
+</project>
